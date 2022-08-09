@@ -14,6 +14,14 @@
                 color: var(--fg-color-title-sm);
                 font-weight: 100;
             }
+            .location {
+                color: var(--fg-color-title-sm);
+                font-weight: 100;
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
         }
         .details {
             @include body-text;

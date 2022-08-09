@@ -1,108 +1,220 @@
-name: John Doe
+name: Jorge Oliveira Santos
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: jorgeoliveirasantos@gmail.com
+  github: jsantos
+  linkedin: jasant
+  phone: +81 070-3345-2643
 
 languages:
   - idiom: English
-  - idiom: Russian
+  - idiom: Portuguese
+  - idiom: Spanish
   - idiom: French
+  - idiom: Japanese (Beginner)
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: MSc in Informatics Engineering
+    time: 2010-2012
+    university: University of Coimbra, Portugal
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: BSc in Informatics Engineering
+    time: 2005-2010
+    university: University of Coimbra, Portugal
 
 skills:
   - category: Backend
-    skill: 
-      - Go
-      - Rust
+    skill:
+      - Ruby on Rails
+      - Django
+      - Spring MVC
+      - Phoenix (Currently learning)
   - category: Frontend
     skill:
-      - React
-      - Typescript
+      - StimulusJS
+      - StimulusReflex/Hotwire
+      - AngularJS
+  - category: Database
+    skill:
+      - PostgreSQL, PostGIS
+      - MySQL
+      - MongoDB
+      - Oracle
   - category: DevOps
     skill:
+      - Ansible
+      - AWS
+      - Continuous Deployment
+      - Continuous Integration
       - Docker
-      - Kubernetes 
-
+      - Nginx
+  - category: Programming Language
+    skill:
+      - Ruby
+      - Javascript
+      - Elixir (Currently learning)
+      - Python
+      - Java
+      - PHP
+      - C, C++, Objective-C
+  - category: Other
+    skill:
+      - Git
+      - Teamwork (mentoring, code reviews)
+      - Unix proficiency
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  I'm a FullStack Developer with 10+ years of experience, having worked in many
+  different contexts, from academia to startups. Nowadays I specialize mostly in
+  Ruby on Rails (Backend) but through the years I've worked with a lot of
+  different technologies. I have a passion for well-designed products, love
+  teamwork and short feedback loops.
 
 # Experience
 experience:
+  - role: Lead Software Engineer
+    time: January 2016 - Present
+    company:
+      name: Mobile Market Monitor
+      url: https://www.mobilemarketmonitor.com/
+      location: Singapore
+    details: |
+      The company was founded as a spin-off from the works done at SMART, in
+      order to create a commercial version of the software I've worked over the
+      years. Working with clients from 5 continents, I've fulfilled requirements
+      on multiple fronts, from performance, scalability, API development to
+      front-end user interface implementations. I was also in charge of managing
+      the whole development team, ranging from mobile developers to other
+      backend developers. I've been responsible for the whole infrastructure
+      (migration to cloud services, automatic provisioning, continuous
+      integration and deployment).
+    technologies_used: |
+      Ruby on Rails, PostgreSQL, Redis, StimulusJS,
+      StimulusReflex, Nginx, Ansible, Docker
+
   - role: Software Engineer
-    time: 2020-Present
-    company: Google
+    time: October 2014 - December 2015
+    company:
+      name: Singapore-MIT Alliance for Research and Technology
+      url: https://smart.mit.edu/research/fm/about-fm
+      location: Singapore
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
+      Worked mostly on backend development on the newest iteration of a
+      large-scale data collection web application, Future Mobility Survey. Also
+      on pivoting the existing platform for other purposes, such as a
+      stated-preference survey for route choices and an application of the
+      technology for freight transportation.
+    technologies_used: |
+      Ruby on Rails, Ember.js, PostgreSQL, Redis, Nginx
+
+  - role: Off-Campus Consultant
+    time: September 2012 - September 2014
+    company:
+      name: Intelligent Transportation Systems Laboratory, MIT
+      url: https://www.its.mit.edu/
+      location: Boston, Massachusetts, USA
+    details: |
+      Worked on two distinct projects: The first one was Truckers@MIT - A platform
+      to conduct a study on truck route choice, comprising data collection from
+      GPS loggers, stop detection, map matching in order to present this data to
+      the end user, which validates the raw data converting it to more complex data.
+      The second one was Future Mobility Survey Boston - An adaptation of the
+      works developed on Singapore, but now focusing on older adult groups in
+      the greater Boston area.
+    technologies_used: |
+      Ruby on Rails, Javascript, PostgreSQL, Redis
+
+  - role: Research Grant Holder
+    time: October 2011 - October 2012
+    company:
+      name: CISUC - University of Coimbra
+      url: https://www.cisuc.uc.pt/
+      location: Coimbra, Portugal
+    details: |
+      As part of my Master's thesis, I've worked on the creation of a dynamic
+      platform for Semantic Enrichment of Place information for the Portuguese
+      language, to be implemented on TICE.Mobilidade, a mobility platform for
+      the portuguese territory. My work comprised on gathering data from
+      multiple data sources (API's, screen scrapping) and aggregate these on a
+      automated service.
+    technologies_used: |
+      Spring MVC, Natural Language Processing, Django, PostgreSQL, SPARQL
+
+  - role: Founder
+    time: July 2011 - Present
+    company:
+      name: Whitesmith
+      url: https://www.whitesmith.co/
+      location: Coimbra, Portugal
+    details: |
+      It started as the development of a product which comprised a web and
+      mobile platform that helped consumers track, analyse and act on energy use
+      with analytics, automation and gamification to save money. At a later
+      stage, to support the growth of our project we pivoted to software
+      consulting services, collaborating with clients to deliver immeadiate
+      needs of product into market.
+    technologies_used: |
+      Ruby on Rails, Node.js, Android (Java), Redis, Nginx
+
+  - role: Research Intern
+    time: August-October 2011
+    company:
+      name: Singapore-MIT Alliance for Research and Technology
+      url: https://smart.mit.edu/research/fm/about-fm
+      location: Singapore
+    details: |
+      Development of the web version of Future Mobility Survey, a household
+      travel survey where the main goal is to collect information on the user's
+      daily activities and travels in order to study mobility patterns and
+      replace paper-based travel surveys. Was also responsible for deploying and
+      supporting the application scalability issues on a in-house infrastructure
+      setup.
+    technologies_used: |
+      Ruby on Rails, MySQL, AJAX, Redis, Nginx
+
   - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+    time: March - July 2011
+    company:
+      name: CISUC - University of Coimbra
+      url: https://www.cisuc.uc.pt/
+      location: Coimbra, Portugal
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Worked as a web developer on the iTEAM (Integrated Transportation Activity
+      Travel) project, on the creation of a web platform which comprises the
+      backend server for a mobile logger and an interactive activity diary web
+      interface for data validation.
+    technologies_used: |
+      Ruby on Rails, MySQL, AJAX
+
+  - role: Senior collaborator
+    time: May 2010 - July 2012
+    company:
+      name: jeKnowledge
+      url: http://jeknowledge.pt/
+      location: Coimbra, Portugal
+    details: |
+      Web development and consulting at the Junior Enterprise of the Faculty of
+      Sciences of Technology of the University of Coimbra. One of the most
+      relevant projects comprised a ticketing system for the biggest academic
+      festivity in Portugal, Queima das Fitas.
+    technologies_used: |
+      Python, Django, MySQL
 
 publications:
-  - title: Random title of paper. An interesting one.
+  - title: Insights on data quality from a large-scale application of smartphone-based travel survey technology in the Phoenix metropolitan area, Arizona, USA
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0965856421002482"
+    authors: Shuyao Hongab, Fang Zhao, Vladimir Livshitsa, Shari Gershenfeld, Jorge Santos, Moshe Ben-Akiva
+    conference: "Transportation Research Part A: Policy and Practice 154 (2021): 413-429"
+
+  - title: Addressing Data Needs and User Requirements in the Future Mobility Survey
+    link: "https://ww2.amstat.org/meetings/jsm/2013/onlineprogram/index.cfm"
+    authors: Caitlin D. Cottrill, Francisco C. Pereira, Fang Zhao, Moshe Ben-Akiva, Christopher P Zegras, Rukshan Batuwitage, and Jorge Santos
+    conference: Joint Statistical Meetings, Montréal, QC, Canada. 2013
+
+  - title: Semantic Enrichment of Places for the Portuguese Language
     link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
-projects:
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    authors: Jorge Santos, Ana Oliveira Alves, Francisco Câmara Pereira, and Pedro Henriques Abreu
+    conference: Proceedings for the IV Informatics Symposium (INForum 2012)

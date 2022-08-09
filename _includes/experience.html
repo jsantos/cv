@@ -8,13 +8,17 @@
                 {{exp.role}}
             </div>
             <div class="company">
-                {{exp.company}} 
+                <a href="{{exp.company.url}}">
+                    {{exp.company.name}}
+                </a>
                 <span class="time">{{exp.time}}</span>
-            </div> 
+                <br>
+                <span class="location">{{exp.company.location}}</span>
+            </div>
             <div class="details">{{exp.details}}</div>
             <p class="technologies">Technologies Used: {{exp.technologies_used}}</p>
         </div>
-       
+
     {% endfor %}
 </section>
 {% endif %}
