@@ -20,7 +20,11 @@
             }
             a {
                 text-decoration: none;
-                color: inherit;
+                color: var(--fg-color-body);
+                @include body-text;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
         .details {
