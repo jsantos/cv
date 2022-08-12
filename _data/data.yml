@@ -38,6 +38,7 @@ skills:
       - StimulusJS
       - StimulusReflex/Hotwire
       - AngularJS
+      - CSS/Sass
   - category: Database
     skill:
       - PostgreSQL, PostGIS
