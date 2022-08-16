@@ -65,6 +65,7 @@ skills:
   - category: Other
     skill:
       - Git
+      - Test-Driven Development
       - Teamwork (mentoring, code reviews)
       - Unix proficiency
 # Profile
