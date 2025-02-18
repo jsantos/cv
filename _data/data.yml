@@ -78,6 +78,23 @@ profile: |
 
 # Experience
 experience:
+  - role: Software Engineer
+    time: November 2022 - Present
+    company:
+      name: TenTen Ltd.
+      url: https://www.mytenten.com/
+      location: Tokyo, Japan
+    details: |
+      At TenTen, I was able to work on a wide range of products and the microservices
+      composing them. While mostly working on backend APIs using Ruby, Rails and Grape,
+      I have also worked on different areas such as front-end development and most recently
+      managing infrastructure, continuous integration pipelines and continuous deployment.
+      While working on a complex microservices architechture, I've been able to learn a lot
+      about service resilience, scalability and performance.
+    technologies_used: |
+      Ruby on Rails, PostgreSQL, Redis, RabbitMQ, ElasticSearch,
+      Ansible, Docker, Terraform, AWS, Heroku
+
   - role: Lead Software Engineer
     time: January 2016 - Present
     company:
