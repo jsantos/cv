@@ -52,6 +52,7 @@ skills:
       - Continuous Deployment
       - Continuous Integration
       - Docker
+      - Terraform
       - Nginx
   - category: Programming Language
     skill:
