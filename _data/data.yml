@@ -80,7 +80,7 @@ profile: |
 # Experience
 experience:
   - role: Software Engineer
-    time: November 2022 - Present
+    time: November 2022 - March 2025
     company:
       name: TenTen Ltd.
       url: https://www.mytenten.com/
@@ -97,7 +97,7 @@ experience:
       Ansible, Docker, Terraform, AWS, Heroku
 
   - role: Lead Software Engineer
-    time: January 2016 - Present
+    time: January 2016 - November 2022
     company:
       name: Mobile Market Monitor
       url: https://www.mobilemarketmonitor.com/
